@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0422319414E524A40043D389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0422319314E524A40043D389 /* UIKit.framework */; };
+		0422319614E524A40043D389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0422319514E524A40043D389 /* Foundation.framework */; };
+		0422319814E524A40043D389 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0422319714E524A40043D389 /* CoreGraphics.framework */; };
+		0422319E14E524A40043D389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0422319C14E524A40043D389 /* InfoPlist.strings */; };
+		042231A014E524A40043D389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422319F14E524A40043D389 /* main.m */; };
+		042231A414E524A40043D389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042231A314E524A40043D389 /* AppDelegate.m */; };
+		042231A714E524A40043D389 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042231A514E524A40043D389 /* MainStoryboard_iPhone.storyboard */; };
+		042231AA14E524A40043D389 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042231A814E524A40043D389 /* MainStoryboard_iPad.storyboard */; };
+		042231AD14E524A40043D389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042231AC14E524A40043D389 /* ViewController.m */; };
+		042231B514E524A40043D389 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042231B414E524A40043D389 /* SenTestingKit.framework */; };
+		042231B614E524A40043D389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0422319314E524A40043D389 /* UIKit.framework */; };
+		042231B714E524A40043D389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0422319514E524A40043D389 /* Foundation.framework */; };
+		042231BF14E524A40043D389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 042231BD14E524A40043D389 /* InfoPlist.strings */; };
+		042231C214E524A40043D389 /* ThaiNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042231C114E524A40043D389 /* ThaiNewsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042231B814E524A40043D389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0422318614E524A40043D389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0422318E14E524A40043D389;
+			remoteInfo = ThaiNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0422318F14E524A40043D389 /* ThaiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0422319314E524A40043D389 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0422319514E524A40043D389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0422319714E524A40043D389 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0422319B14E524A40043D389 /* ThaiNews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThaiNews-Info.plist"; sourceTree = "<group>"; };
+		0422319D14E524A40043D389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0422319F14E524A40043D389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042231A114E524A40043D389 /* ThaiNews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThaiNews-Prefix.pch"; sourceTree = "<group>"; };
+		042231A214E524A40043D389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042231A314E524A40043D389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042231A614E524A40043D389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		042231A914E524A40043D389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		042231AB14E524A40043D389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042231AC14E524A40043D389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042231B314E524A40043D389 /* ThaiNewsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaiNewsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042231B414E524A40043D389 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		042231BC14E524A40043D389 /* ThaiNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThaiNewsTests-Info.plist"; sourceTree = "<group>"; };
+		042231BE14E524A40043D389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		042231C014E524A40043D389 /* ThaiNewsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThaiNewsTests.h; sourceTree = "<group>"; };
+		042231C114E524A40043D389 /* ThaiNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThaiNewsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0422318C14E524A40043D389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0422319414E524A40043D389 /* UIKit.framework in Frameworks */,
+				0422319614E524A40043D389 /* Foundation.framework in Frameworks */,
+				0422319814E524A40043D389 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042231AF14E524A40043D389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042231B514E524A40043D389 /* SenTestingKit.framework in Frameworks */,
+				042231B614E524A40043D389 /* UIKit.framework in Frameworks */,
+				042231B714E524A40043D389 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0422318414E524A40043D389 = {
+			isa = PBXGroup;
+			children = (
+				0422319914E524A40043D389 /* ThaiNews */,
+				042231BA14E524A40043D389 /* ThaiNewsTests */,
+				0422319214E524A40043D389 /* Frameworks */,
+				0422319014E524A40043D389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0422319014E524A40043D389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0422318F14E524A40043D389 /* ThaiNews.app */,
+				042231B314E524A40043D389 /* ThaiNewsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0422319214E524A40043D389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0422319314E524A40043D389 /* UIKit.framework */,
+				0422319514E524A40043D389 /* Foundation.framework */,
+				0422319714E524A40043D389 /* CoreGraphics.framework */,
+				042231B414E524A40043D389 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0422319914E524A40043D389 /* ThaiNews */ = {
+			isa = PBXGroup;
+			children = (
+				042231A214E524A40043D389 /* AppDelegate.h */,
+				042231A314E524A40043D389 /* AppDelegate.m */,
+				042231A514E524A40043D389 /* MainStoryboard_iPhone.storyboard */,
+				042231A814E524A40043D389 /* MainStoryboard_iPad.storyboard */,
+				042231AB14E524A40043D389 /* ViewController.h */,
+				042231AC14E524A40043D389 /* ViewController.m */,
+				0422319A14E524A40043D389 /* Supporting Files */,
+			);
+			path = ThaiNews;
+			sourceTree = "<group>";
+		};
+		0422319A14E524A40043D389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0422319B14E524A40043D389 /* ThaiNews-Info.plist */,
+				0422319C14E524A40043D389 /* InfoPlist.strings */,
+				0422319F14E524A40043D389 /* main.m */,
+				042231A114E524A40043D389 /* ThaiNews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042231BA14E524A40043D389 /* ThaiNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				042231C014E524A40043D389 /* ThaiNewsTests.h */,
+				042231C114E524A40043D389 /* ThaiNewsTests.m */,
+				042231BB14E524A40043D389 /* Supporting Files */,
+			);
+			path = ThaiNewsTests;
+			sourceTree = "<group>";
+		};
+		042231BB14E524A40043D389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042231BC14E524A40043D389 /* ThaiNewsTests-Info.plist */,
+				042231BD14E524A40043D389 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0422318E14E524A40043D389 /* ThaiNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042231C514E524A40043D389 /* Build configuration list for PBXNativeTarget "ThaiNews" */;
+			buildPhases = (
+				0422318B14E524A40043D389 /* Sources */,
+				0422318C14E524A40043D389 /* Frameworks */,
+				0422318D14E524A40043D389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThaiNews;
+			productName = ThaiNews;
+			productReference = 0422318F14E524A40043D389 /* ThaiNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042231B214E524A40043D389 /* ThaiNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042231C814E524A40043D389 /* Build configuration list for PBXNativeTarget "ThaiNewsTests" */;
+			buildPhases = (
+				042231AE14E524A40043D389 /* Sources */,
+				042231AF14E524A40043D389 /* Frameworks */,
+				042231B014E524A40043D389 /* Resources */,
+				042231B114E524A40043D389 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042231B914E524A40043D389 /* PBXTargetDependency */,
+			);
+			name = ThaiNewsTests;
+			productName = ThaiNewsTests;
+			productReference = 042231B314E524A40043D389 /* ThaiNewsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0422318614E524A40043D389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0422318914E524A40043D389 /* Build configuration list for PBXProject "ThaiNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0422318414E524A40043D389;
+			productRefGroup = 0422319014E524A40043D389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0422318E14E524A40043D389 /* ThaiNews */,
+				042231B214E524A40043D389 /* ThaiNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0422318D14E524A40043D389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0422319E14E524A40043D389 /* InfoPlist.strings in Resources */,
+				042231A714E524A40043D389 /* MainStoryboard_iPhone.storyboard in Resources */,
+				042231AA14E524A40043D389 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042231B014E524A40043D389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042231BF14E524A40043D389 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042231B114E524A40043D389 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0422318B14E524A40043D389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042231A014E524A40043D389 /* main.m in Sources */,
+				042231A414E524A40043D389 /* AppDelegate.m in Sources */,
+				042231AD14E524A40043D389 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042231AE14E524A40043D389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042231C214E524A40043D389 /* ThaiNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042231B914E524A40043D389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0422318E14E524A40043D389 /* ThaiNews */;
+			targetProxy = 042231B814E524A40043D389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0422319C14E524A40043D389 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0422319D14E524A40043D389 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		042231A514E524A40043D389 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042231A614E524A40043D389 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		042231A814E524A40043D389 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042231A914E524A40043D389 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		042231BD14E524A40043D389 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042231BE14E524A40043D389 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042231C314E524A40043D389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042231C414E524A40043D389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042231C614E524A40043D389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThaiNews/ThaiNews-Prefix.pch";
+				INFOPLIST_FILE = "ThaiNews/ThaiNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		042231C714E524A40043D389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThaiNews/ThaiNews-Prefix.pch";
+				INFOPLIST_FILE = "ThaiNews/ThaiNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		042231C914E524A40043D389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThaiNews.app/ThaiNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThaiNews/ThaiNews-Prefix.pch";
+				INFOPLIST_FILE = "ThaiNewsTests/ThaiNewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		042231CA14E524A40043D389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThaiNews.app/ThaiNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThaiNews/ThaiNews-Prefix.pch";
+				INFOPLIST_FILE = "ThaiNewsTests/ThaiNewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0422318914E524A40043D389 /* Build configuration list for PBXProject "ThaiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042231C314E524A40043D389 /* Debug */,
+				042231C414E524A40043D389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042231C514E524A40043D389 /* Build configuration list for PBXNativeTarget "ThaiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042231C614E524A40043D389 /* Debug */,
+				042231C714E524A40043D389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		042231C814E524A40043D389 /* Build configuration list for PBXNativeTarget "ThaiNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042231C914E524A40043D389 /* Debug */,
+				042231CA14E524A40043D389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0422318614E524A40043D389 /* Project object */;
+}
